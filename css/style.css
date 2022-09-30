@@ -28,6 +28,7 @@ h3 {
     font-size: 13px;
     line-height: 16px;
     color: #242424;
+    border: none;
 }
 
 /* Header */
@@ -295,4 +296,11 @@ header {
 .step-title, 
 .step-description {
     margin-top: 10px;
+}
+.work-steps-btn {
+    max-width: 240px;
+    width: 100%;
+    height: 45px;
+    padding: auto;
+    margin-top: 60px;
 }
