@@ -12,6 +12,11 @@ a {
 }
 li {
     list-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #000000;
 }
 h3 {
     font-style: normal;
@@ -91,7 +96,7 @@ header {
     line-height: 60px;
     color: #242424;
 }
-.header-info-price {
+.info-price {
     margin-bottom: 50px;
     font-style: normal;
     font-weight: 400;
@@ -304,3 +309,101 @@ header {
     padding: auto;
     margin-top: 60px;
 }
+
+/* Designer */
+.designer-photo {
+    width: 30%;
+    padding-top: 20px;
+}
+.designer-info {
+    width: 70%;
+    margin-left: 100px;
+}
+.designer {
+    margin: 100px 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.designer-profile {
+    margin-bottom: 30px;
+}
+.designer-info-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #242424;
+    margin-bottom:  30px;
+    text-align: left;
+}
+.designer-icon {
+    margin-right: 15px;
+}
+.list-decorate {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.designer-info-text {
+    margin: 30px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #000000;
+}
+.designer-info-certs {
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+/* Tariff */
+.design-project-title {
+    margin-bottom: 50px;
+}
+.design-project-tariff {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.tariff {
+    width: 362px;
+    min-height: 720px;
+    background: #F5F5F5;
+    border: 2px solid #E1E1E1;
+    padding: 30px;
+    position: relative;
+}
+.tariff-economy,
+.tariff-economy-plus, 
+.tariff-extra {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 55px;
+    margin-bottom: 20px;
+}
+.tariff-price {
+    margin-bottom: 35px;
+}
+.tariff-list {
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+}
+.tariff-term {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+.tariff-btn {
+    width: 280px;
+    height: 45px;
+    margin-top: 10px;
+}
+
