@@ -406,4 +406,44 @@ header {
     height: 45px;
     margin-top: 10px;
 }
+/* Working us */
+.working-us {
+    margin-top: 100px;
+    text-align: center;
+}
+.working-us-lists {
+    margin-top: 60px;
+    text-align: left;
+    display: grid;
+    grid-template-areas: 'auto auto auto';
+    gap: 30px;
+}
+/* Consultation */
+.consultation-wrap {
+    display: flex;
+}
+.consultation-list {
+    display: flex;
+}
 
+/* How we work */
+.work-process-steps {
+    position: relative;
+    display: grid;
+    text-align: left;
+    grid-template-areas: 'auto auto auto auto';
+}
+.work-process-step {
+    position: relative;
+}
+.arrow::after {
+    content: '';
+    display: block;
+    position: absolute;
+    margin-top: 25px;
+    top: 0;
+    right: -150px;
+    width: 100%;
+    height: 100%;
+    background: url('../icons/arrow.png') no-repeat;
+}
