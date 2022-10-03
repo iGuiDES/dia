@@ -339,6 +339,8 @@ header {
 }
 .designer-icon {
     margin-right: 15px;
+    width: 22px;
+    height: 22px;
 }
 .list-decorate {
     display: flex;
@@ -419,14 +421,43 @@ header {
     gap: 30px;
 }
 /* Consultation */
+.consultation {
+    margin-top: 100px;
+}
+.consultation-title {
+    margin-bottom: 50px;
+}
 .consultation-wrap {
     display: flex;
 }
 .consultation-list {
     display: flex;
 }
-
+.consultation-img {
+    margin-right: 30px;
+}
+.consultation-info-description {
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+}
+.consultation-list {
+    margin-bottom: 15px;
+}
+.consultation-btn {
+    width: 280px;
+    height: 45px;
+    margin-top: 52px;
+}
 /* How we work */
+.work-process {
+    margin-top: 100px;
+}
+.work-process-title {
+    margin-bottom: 60px;
+}
 .work-process-steps {
     position: relative;
     display: grid;
@@ -435,6 +466,7 @@ header {
 }
 .work-process-step {
     position: relative;
+    max-width: 260px;
 }
 .arrow::after {
     content: '';
@@ -447,3 +479,109 @@ header {
     height: 100%;
     background: url('../icons/arrow.png') no-repeat;
 }
+/* Partners */
+.partners {
+    margin-top: 100px;
+}
+.partners-slider {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.partners-slider::before {
+    content: '';
+    background: url('../icons/arrow-left.png') no-repeat center center;
+    width: 30px;
+    height: 30px;
+}
+.partners-slider::after {
+    content: '';
+    background: url('../icons/arrow-right.png') no-repeat center center;
+    width: 30px;
+    height: 30px;
+}
+/* Reviews */
+.reviews {
+    margin-top: 100px;
+    padding: 0;
+}
+.reviews-info {
+    margin-top: 50px;
+}
+.reviews-project,
+.reviews-about {
+    margin-left: 30px;
+    padding: 0;
+    position: relative;
+}
+.reviews-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.reviews-project-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.reviews-project > img {
+    margin-bottom: 16px;
+}
+.reviews-username {
+    margin-top: -18px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 55px;
+    color: #242424;
+}
+.reviews-about-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+}
+.reviews-btn {
+    width: 280px;
+    height: 45px;
+    position: absolute  ;
+    bottom: 20px;
+}
+/* Questions */
+.questions {
+    margin: 100px 0;
+    text-align: center;
+}
+.contacts {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.contacts-group-call {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.contacts-info {
+    margin-bottom: 60px;
+}
+.contacts-group-call > img {
+    margin-right: 30px;
+}
+.whatsapp, 
+.telegram, 
+.instagram {
+    display: flex;
+    align-items: center;
+}
+.whatsapp-img, 
+.tg-img, 
+.instagram-img {
+    margin-right: 30px;
+}
+
